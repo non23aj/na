@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Budget Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Budget Manager</h1>
+        <p>Please log in to access your account.</p>
+    </header>
+
+    <main>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+
+        <div id="login-notification" class="hidden"></div>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Budget Manager</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

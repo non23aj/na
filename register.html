@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Budget Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Budget Manager</h1>
+        <p>Create an account to get started.</p>
+    </header>
+
+    <main>
+        <form id="register-form">
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username" required>
+
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password" required>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <div id="register-notification" class="hidden"></div>
+        <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Budget Manager</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
